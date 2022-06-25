@@ -1,0 +1,355 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("CustomFont.eot");
+    src: url("CustomFont.woff") format("woff"), url("CustomFont.otf") format("opentype"),
+        url("/fonts/Cooper\ Bold\ BT.ttf") format("svg");
+}
+
+@font-face {
+    font-family: cooper;
+    src: url(../fonts/Cooper\ Bold\ BT.ttf);
+}
+.logo a img {
+    width: 50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.navigation {
+    text-align: center;
+}
+.navigation ul li {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 0 20px;
+    border-right: 1px solid;
+}
+.navigation ul li a {
+    font-size: 16px;
+    color: #000;
+}
+.icons {
+    text-align: right;
+    padding-top: 30px;
+    padding: 0 20px;
+}
+.icons ul li {
+    margin-top: 30px;
+    display: inline-block;
+}
+.icons ul li a img {
+    margin-left: 20px;
+}
+.banner img {
+    width: 100%;
+}
+.banner {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.banner h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-family: cooper;
+}
+.banner p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.banner-text {
+    /* position: relative;
+    left: 20%;
+    top: 29%; */
+    border: 4px solid white;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bannerButton {
+    padding: 8px 20px;
+    position: relative;
+    top: 21px;
+    background: rgb(189, 167, 46);
+    color: white;
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 11px;
+} 
+img.butterfly {
+    width: 100%;
+}
+img.locket {
+    bottom: 0px;
+    position: absolute;
+    right: 14px;
+    width: 51%;
+}
+
+
+.header ul li{
+    
+    margin-top: 30px;
+    padding: 0 20px;
+    border-right: 1px solid;
+
+}
+
+/* About US */
+.AboutUs h4 {
+    color: #b8ab80;
+    font-family: cooper;
+}
+.AboutUs button {
+    background-color: #b8ab80;
+    color: #ffffff;
+    padding: 10px 21px;
+    border: 1px solid;
+    border-radius: 11px;
+}
+
+.AboutUs h2 {
+    font-family: cooper;
+}
+.AboutUs {
+    padding: 90px 0 90px 0;
+}
+
+/* product Section */
+.Product h3 {
+    text-align: center;
+    font-family: coopers;
+
+    color: #b8ab80;
+}
+.Product h2 {
+    text-align: center;
+    font-family: cooper;
+}
+.Product p {
+    text-align: center;
+}
+.Product button {
+    margin-left: 550px;
+    margin-top: 20px;
+    background-color: white;
+    color: #b8ab80;
+    padding: 6px 31px;
+    border: 2px solid #b8ab80;
+}
+.Product {
+    background-color: #ebebea;
+}
+
+.Product .col-lg-3 {
+    text-align: center;
+}
+
+.Product .col-lg-3 img {
+    margin: 0 auto;
+}
+
+/* catagories Section */
+.catagories {
+    padding: 90px 0 90px 0;
+}
+.catagories h3 {
+    text-align: center;
+    color: #b8ab80;
+    font-family: cooper;
+}
+.catagories h2 {
+    text-align: center;
+    font-family: cooper;
+}
+.catagories p {
+    text-align: center;
+}
+
+/* Newsletter section */
+.Newsletter {
+    padding-bottom: 90px;
+}
+.Newsletter h2 {
+    text-align: center;
+}
+.Newsletter p {
+    text-align: center;
+}
+.email-in input {
+    width: 100%;
+    padding: 12px 10px;
+}
+.email-in {
+    position: relative;
+}
+.email-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.email-btn button {
+    background: #000;
+    color: #fff;
+    padding: 14px 42px;
+    border: none;
+}
+.email-btn button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Foooter */
+.footer {
+    background-color: #f6f5ef;
+}
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.footer li {
+    padding-right: 30px;
+}
+
+.footer p {
+    justify-content: center;
+    display: flex;
+}
+.footer hr {
+    border-top: 1px solid;
+}
+
+/*Conatct Us*/
+.ContactUs-info ul {
+    list-style-type: none;
+}
+
+.ContactUs-Socialicon ul {
+    list-style-type: none;
+    display: flex;
+}
+.ContactUs-Socialicon li {
+    padding: 9px 15px;
+}
+.shipping ul {
+    list-style-type: none;
+    display: flex;
+    border: 1px dashed;
+}
+.shipping ul li{
+    padding: 10px;
+}
+/* Our Product page */
+.our_product-cart {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px !important;
+    align-items: center;
+}
+.product-img {
+    width: 45%;
+    max-height: 150px;
+}
+.product-img img {
+    width: 93%;
+    max-height: 140px;
+}
+.Product_Parent_Row {
+    margin: 0 !important;
+}
+
+/* Our Login page */
+.login_card{
+    width: 50%;
+}
+.Login_page_Parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Product Details */
+.checked {
+    color: orange;
+}
+img {
+    vertical-align: middle;
+    /* width: 100%; */
+}
+img.locket {
+    top: 135px;
+    left: 327px;
+    position: absolute;
+}
+@media screen and (max-width: 600px) {
+    img.locket {
+        width: 100%;
+        position: initial;
+    }
+}
+.col-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputNumber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 26%;
+}
+.Signup_card {
+    width: 50%;
+}
+.row {
+    position: relative;
+}
+
+
+.Product-Details {
+    padding-top: 20px;
+}
+
+/* Add To Cart */
+.product-card img {
+    width: 100px;
+}
+
+.product-card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Product Details */
+
+.button{
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.btn-primary {
+    color: #fff;
+    background-color:red;
+    border-radius: 15px;
+}
+
+
+/* contact form */
+button.contact-form-btn {
+    background-color: #b8ab80;
+    height: 46px;
+    border-radius: 12px;
+    color: #ffffff;
+    border: 2px solid;
+}
